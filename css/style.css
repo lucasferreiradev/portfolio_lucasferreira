@@ -133,7 +133,7 @@ input,textarea,select{
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    padding: 12px 35px;
+    padding: 15px 15px;
     color: #ffffff;
     border-radius: 40px;
     -webkit-transition: all 0.3s ease;
@@ -942,6 +942,7 @@ input,textarea,select{
     max-width: 33.33%;
     text-align: center;
     margin-bottom: 40px;
+    margin-top: -30px;
 }
 .contact .contact-info-item .icon{
     display: inline-block;
@@ -964,6 +965,7 @@ input,textarea,select{
     font-weight: 400;
 }
 .contact .contact-form{
+    margin-top: -15px;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
@@ -997,7 +999,7 @@ input,textarea,select{
     box-shadow: 0 0 20px rgba(48,46,77,0.15);
 }
 .contact .contact-form .form-item textarea.form-control{
-    height: 140px;
+    height: 100px;
 }
 .contact .contact-form .btn{
     height: 50px;
@@ -1065,6 +1067,9 @@ input,textarea,select{
     .portfolio .portfolio-filter button{
         margin-bottom: 10px;
     }
+    .contact .contact-form{
+    text-align: center;
+    }
 }
 @media (max-width: 575px){
     .blog .blog-item,
@@ -1073,5 +1078,8 @@ input,textarea,select{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+    }
+    .contact .contact-form{
+    text-align: center;
     }
 }
